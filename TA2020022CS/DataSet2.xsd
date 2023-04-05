@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet2" msprop:Generator_UserDSName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="pinjam" msprop:Generator_TableClassName="pinjamDataTable" msprop:Generator_TableVarName="tablepinjam" msprop:Generator_TablePropName="pinjam" msprop:Generator_RowDeletingName="pinjamRowDeleting" msprop:Generator_RowChangingName="pinjamRowChanging" msprop:Generator_RowEvHandlerName="pinjamRowChangeEventHandler" msprop:Generator_RowDeletedName="pinjamRowDeleted" msprop:Generator_UserTableName="pinjam" msprop:Generator_RowChangedName="pinjamRowChanged" msprop:Generator_RowEvArgName="pinjamRowChangeEvent" msprop:Generator_RowClassName="pinjamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_pinjam" msprop:Generator_ColumnVarNameInTable="columnid_pinjam" msprop:Generator_ColumnPropNameInRow="id_pinjam" msprop:Generator_ColumnPropNameInTable="id_pinjamColumn" msprop:Generator_UserColumnName="id_pinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl" msprop:Generator_ColumnVarNameInTable="columntgl" msprop:Generator_ColumnPropNameInRow="tgl" msprop:Generator_ColumnPropNameInTable="tglColumn" msprop:Generator_UserColumnName="tgl" type="xs:string" minOccurs="0" />
+              <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username" type="xs:string" minOccurs="0" />
+              <xs:element name="id_mobil" msprop:Generator_ColumnVarNameInTable="columnid_mobil" msprop:Generator_ColumnPropNameInRow="id_mobil" msprop:Generator_ColumnPropNameInTable="id_mobilColumn" msprop:Generator_UserColumnName="id_mobil" type="xs:string" minOccurs="0" />
+              <xs:element name="merk" msprop:Generator_ColumnVarNameInTable="columnmerk" msprop:Generator_ColumnPropNameInRow="merk" msprop:Generator_ColumnPropNameInTable="merkColumn" msprop:Generator_UserColumnName="merk" type="xs:string" minOccurs="0" />
+              <xs:element name="no_plat" msprop:Generator_ColumnVarNameInTable="columnno_plat" msprop:Generator_ColumnPropNameInRow="no_plat" msprop:Generator_ColumnPropNameInTable="no_platColumn" msprop:Generator_UserColumnName="no_plat" type="xs:string" minOccurs="0" />
+              <xs:element name="harga_perhari" msprop:Generator_ColumnVarNameInTable="columnharga_perhari" msprop:Generator_ColumnPropNameInRow="harga_perhari" msprop:Generator_ColumnPropNameInTable="harga_perhariColumn" msprop:Generator_UserColumnName="harga_perhari" type="xs:long" minOccurs="0" />
+              <xs:element name="lama" msprop:Generator_ColumnVarNameInTable="columnlama" msprop:Generator_ColumnPropNameInRow="lama" msprop:Generator_ColumnPropNameInTable="lamaColumn" msprop:Generator_UserColumnName="lama" type="xs:long" minOccurs="0" />
+              <xs:element name="id_penyewa" msprop:Generator_ColumnVarNameInTable="columnid_penyewa" msprop:Generator_ColumnPropNameInRow="id_penyewa" msprop:Generator_ColumnPropNameInTable="id_penyewaColumn" msprop:Generator_UserColumnName="id_penyewa" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_penyewa" msprop:Generator_ColumnVarNameInTable="columnnama_penyewa" msprop:Generator_ColumnPropNameInRow="nama_penyewa" msprop:Generator_ColumnPropNameInTable="nama_penyewaColumn" msprop:Generator_UserColumnName="nama_penyewa" type="xs:string" minOccurs="0" />
+              <xs:element name="nohp" msprop:Generator_ColumnVarNameInTable="columnnohp" msprop:Generator_ColumnPropNameInRow="nohp" msprop:Generator_ColumnPropNameInTable="nohpColumn" msprop:Generator_UserColumnName="nohp" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="mobil" msprop:Generator_TableClassName="mobilDataTable" msprop:Generator_TableVarName="tablemobil" msprop:Generator_TablePropName="mobil" msprop:Generator_RowDeletingName="mobilRowDeleting" msprop:Generator_RowChangingName="mobilRowChanging" msprop:Generator_RowEvHandlerName="mobilRowChangeEventHandler" msprop:Generator_RowDeletedName="mobilRowDeleted" msprop:Generator_UserTableName="mobil" msprop:Generator_RowChangedName="mobilRowChanged" msprop:Generator_RowEvArgName="mobilRowChangeEvent" msprop:Generator_RowClassName="mobilRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_mobil" msprop:Generator_ColumnVarNameInTable="columnid_mobil" msprop:Generator_ColumnPropNameInRow="id_mobil" msprop:Generator_ColumnPropNameInTable="id_mobilColumn" msprop:Generator_UserColumnName="id_mobil" type="xs:string" minOccurs="0" />
+              <xs:element name="merk" msprop:Generator_ColumnVarNameInTable="columnmerk" msprop:Generator_ColumnPropNameInRow="merk" msprop:Generator_ColumnPropNameInTable="merkColumn" msprop:Generator_UserColumnName="merk" type="xs:string" minOccurs="0" />
+              <xs:element name="no_plat" msprop:Generator_ColumnVarNameInTable="columnno_plat" msprop:Generator_ColumnPropNameInRow="no_plat" msprop:Generator_ColumnPropNameInTable="no_platColumn" msprop:Generator_UserColumnName="no_plat" type="xs:string" minOccurs="0" />
+              <xs:element name="harga_perhari" msprop:Generator_ColumnVarNameInTable="columnharga_perhari" msprop:Generator_ColumnPropNameInRow="harga_perhari" msprop:Generator_ColumnPropNameInTable="harga_perhariColumn" msprop:Generator_UserColumnName="harga_perhari" type="xs:double" minOccurs="0" />
+              <xs:element name="mesin" msprop:Generator_ColumnVarNameInTable="columnmesin" msprop:Generator_ColumnPropNameInRow="mesin" msprop:Generator_ColumnPropNameInTable="mesinColumn" msprop:Generator_UserColumnName="mesin" type="xs:string" minOccurs="0" />
+              <xs:element name="jumlah" msprop:Generator_ColumnVarNameInTable="columnjumlah" msprop:Generator_ColumnPropNameInRow="jumlah" msprop:Generator_ColumnPropNameInTable="jumlahColumn" msprop:Generator_UserColumnName="jumlah" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="penyewa" msprop:Generator_TableClassName="penyewaDataTable" msprop:Generator_TableVarName="tablepenyewa" msprop:Generator_TablePropName="penyewa" msprop:Generator_RowDeletingName="penyewaRowDeleting" msprop:Generator_RowChangingName="penyewaRowChanging" msprop:Generator_RowEvHandlerName="penyewaRowChangeEventHandler" msprop:Generator_RowDeletedName="penyewaRowDeleted" msprop:Generator_UserTableName="penyewa" msprop:Generator_RowChangedName="penyewaRowChanged" msprop:Generator_RowEvArgName="penyewaRowChangeEvent" msprop:Generator_RowClassName="penyewaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_penyewa" msprop:Generator_ColumnVarNameInTable="columnid_penyewa" msprop:Generator_ColumnPropNameInRow="id_penyewa" msprop:Generator_ColumnPropNameInTable="id_penyewaColumn" msprop:Generator_UserColumnName="id_penyewa" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_penyewa" msprop:Generator_ColumnVarNameInTable="columnnama_penyewa" msprop:Generator_ColumnPropNameInRow="nama_penyewa" msprop:Generator_ColumnPropNameInTable="nama_penyewaColumn" msprop:Generator_UserColumnName="nama_penyewa" type="xs:string" minOccurs="0" />
+              <xs:element name="nohp" msprop:Generator_ColumnVarNameInTable="columnnohp" msprop:Generator_ColumnPropNameInRow="nohp" msprop:Generator_ColumnPropNameInTable="nohpColumn" msprop:Generator_UserColumnName="nohp" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lap_pinjam" msprop:Generator_TableClassName="lap_pinjamDataTable" msprop:Generator_TableVarName="tablelap_pinjam" msprop:Generator_TablePropName="lap_pinjam" msprop:Generator_RowDeletingName="lap_pinjamRowDeleting" msprop:Generator_RowChangingName="lap_pinjamRowChanging" msprop:Generator_RowEvHandlerName="lap_pinjamRowChangeEventHandler" msprop:Generator_RowDeletedName="lap_pinjamRowDeleted" msprop:Generator_UserTableName="lap_pinjam" msprop:Generator_RowChangedName="lap_pinjamRowChanged" msprop:Generator_RowEvArgName="lap_pinjamRowChangeEvent" msprop:Generator_RowClassName="lap_pinjamRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_pinjam" msprop:Generator_ColumnVarNameInTable="columnid_pinjam" msprop:Generator_ColumnPropNameInRow="id_pinjam" msprop:Generator_ColumnPropNameInTable="id_pinjamColumn" msprop:Generator_UserColumnName="id_pinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl" msprop:Generator_ColumnVarNameInTable="columntgl" msprop:Generator_ColumnPropNameInRow="tgl" msprop:Generator_ColumnPropNameInTable="tglColumn" msprop:Generator_UserColumnName="tgl" type="xs:string" minOccurs="0" />
+              <xs:element name="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" msprop:Generator_UserColumnName="username" type="xs:string" minOccurs="0" />
+              <xs:element name="id_penyewa" msprop:Generator_ColumnVarNameInTable="columnid_penyewa" msprop:Generator_ColumnPropNameInRow="id_penyewa" msprop:Generator_ColumnPropNameInTable="id_penyewaColumn" msprop:Generator_UserColumnName="id_penyewa" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_penyewa" msprop:Generator_ColumnVarNameInTable="columnnama_penyewa" msprop:Generator_ColumnPropNameInRow="nama_penyewa" msprop:Generator_ColumnPropNameInTable="nama_penyewaColumn" msprop:Generator_UserColumnName="nama_penyewa" type="xs:string" minOccurs="0" />
+              <xs:element name="nohp" msprop:Generator_ColumnVarNameInTable="columnnohp" msprop:Generator_ColumnPropNameInRow="nohp" msprop:Generator_ColumnPropNameInTable="nohpColumn" msprop:Generator_UserColumnName="nohp" type="xs:long" minOccurs="0" />
+              <xs:element name="jml_pinjam" msprop:Generator_ColumnVarNameInTable="columnjml_pinjam" msprop:Generator_ColumnPropNameInRow="jml_pinjam" msprop:Generator_ColumnPropNameInTable="jml_pinjamColumn" msprop:Generator_UserColumnName="jml_pinjam" type="xs:long" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="lap_kembali" msprop:Generator_TableClassName="lap_kembaliDataTable" msprop:Generator_TableVarName="tablelap_kembali" msprop:Generator_TablePropName="lap_kembali" msprop:Generator_RowDeletingName="lap_kembaliRowDeleting" msprop:Generator_RowChangingName="lap_kembaliRowChanging" msprop:Generator_RowEvHandlerName="lap_kembaliRowChangeEventHandler" msprop:Generator_RowDeletedName="lap_kembaliRowDeleted" msprop:Generator_UserTableName="lap_kembali" msprop:Generator_RowChangedName="lap_kembaliRowChanged" msprop:Generator_RowEvArgName="lap_kembaliRowChangeEvent" msprop:Generator_RowClassName="lap_kembaliRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_pinjam" msprop:Generator_ColumnVarNameInTable="columnid_pinjam" msprop:Generator_ColumnPropNameInRow="id_pinjam" msprop:Generator_ColumnPropNameInTable="id_pinjamColumn" msprop:Generator_UserColumnName="id_pinjam" type="xs:string" minOccurs="0" />
+              <xs:element name="tgl" msprop:Generator_ColumnVarNameInTable="columntgl" msprop:Generator_ColumnPropNameInRow="tgl" msprop:Generator_ColumnPropNameInTable="tglColumn" msprop:Generator_UserColumnName="tgl" type="xs:string" minOccurs="0" />
+              <xs:element name="id_penyewa" msprop:Generator_ColumnVarNameInTable="columnid_penyewa" msprop:Generator_ColumnPropNameInRow="id_penyewa" msprop:Generator_ColumnPropNameInTable="id_penyewaColumn" msprop:Generator_UserColumnName="id_penyewa" type="xs:string" minOccurs="0" />
+              <xs:element name="nama_penyewa" msprop:Generator_ColumnVarNameInTable="columnnama_penyewa" msprop:Generator_ColumnPropNameInRow="nama_penyewa" msprop:Generator_ColumnPropNameInTable="nama_penyewaColumn" msprop:Generator_UserColumnName="nama_penyewa" type="xs:string" minOccurs="0" />
+              <xs:element name="jml_pinjam" msprop:Generator_ColumnVarNameInTable="columnjml_pinjam" msprop:Generator_ColumnPropNameInRow="jml_pinjam" msprop:Generator_ColumnPropNameInTable="jml_pinjamColumn" msprop:Generator_UserColumnName="jml_pinjam" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="pinjamKey1">
+      <xs:selector xpath=".//mstns:pinjam" />
+      <xs:field xpath="mstns:id_pinjam" />
+    </xs:unique>
+    <xs:unique name="mobilKey1">
+      <xs:selector xpath=".//mstns:mobil" />
+      <xs:field xpath="mstns:id_mobil" />
+    </xs:unique>
+    <xs:unique name="penyewaKey1">
+      <xs:selector xpath=".//mstns:penyewa" />
+      <xs:field xpath="mstns:id_penyewa" />
+    </xs:unique>
+    <xs:unique name="lap_pinjam_pinjamKey1" msdata:ConstraintName="pinjamKey1">
+      <xs:selector xpath=".//mstns:lap_pinjam" />
+      <xs:field xpath="mstns:id_pinjam" />
+    </xs:unique>
+    <xs:unique name="lap_kembali_pinjamKey1" msdata:ConstraintName="pinjamKey1">
+      <xs:selector xpath=".//mstns:lap_kembali" />
+      <xs:field xpath="mstns:id_pinjam" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

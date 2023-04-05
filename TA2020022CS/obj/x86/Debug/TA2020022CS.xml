@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TA2020022CS
+</name>
+</assembly>
+<members>
+<member name="T:TA2020022CS.DataSet2.pinjamDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.mobilDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.penyewaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.lap_pinjamDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.lap_kembaliDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.pinjamRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.mobilRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.penyewaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.lap_pinjamRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.lap_kembaliRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.pinjamRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.mobilRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.penyewaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.lap_pinjamRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA2020022CS.DataSet2.lap_kembaliRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA2020022CS.DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:TA2020022CS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TA2020022CS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TA2020022CS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:TA2020022CS.DataSet1.MobilDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet1.penyewaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet1.pinjamDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet1.MobilRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet1.penyewaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet1.pinjamRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:TA2020022CS.DataSet1.MobilRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA2020022CS.DataSet1.penyewaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA2020022CS.DataSet1.pinjamRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:TA2020022CS.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>
