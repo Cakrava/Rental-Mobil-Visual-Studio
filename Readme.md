@@ -1,2 +1,2 @@
-# Minimarket-Visual-Studio
-aplikasi atau program kasir di sebuah minimarket dengan menggunakan MS.Visual Studio dimana sebagai tugas akhir matakuliah Client Server semester 5 
+Rental Mobil
+aplikasi atau program rental di sebuah rental mobil dengan menggunakan MS.Visual Studio dimana sebagai tugas akhir matakuliah Client Server semester 5 
